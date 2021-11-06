@@ -1,0 +1,14 @@
+.playArea {
+  width: 80vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1/1;
+}
+.App {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+}

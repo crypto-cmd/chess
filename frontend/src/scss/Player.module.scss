@@ -1,0 +1,18 @@
+// Styling for a component that displays a player's information
+.Player {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+  padding: 5px;
+  border-radius: 0.2em;
+  background-color: rgba(0, 0, 0, 0.041);
+  overflow: hidden;
+  .gameInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1em;
+    }
+}
